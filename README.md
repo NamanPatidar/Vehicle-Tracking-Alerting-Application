@@ -1,0 +1,2 @@
+# Vehicle-Tracking-Alerting-Application
+The project aims at building an application that provides detailed information related to the management of the buses. The bus location and the driver details must be stored in Cloudant DB. Alerts are sent using the Fast2SMS service. The Application must be deployed using the IBM Cloud Foundry. Create an API Endpoint for the model with the help of IBM Cloud Functions. 
