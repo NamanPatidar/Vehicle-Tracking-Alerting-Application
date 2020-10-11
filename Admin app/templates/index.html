@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='img/home-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Bus Management</h1>
+              <span class="subheading">Admin Panel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-10 mx-auto">
+
+          <hr>
+          <hr>
+                    <a class="btn btn-warning" href="/add">Add Driver</a>
+                    <a class="btn btn-danger" href="/remove">Remove Driver</a>
+                    <a class="btn btn-success" href="/contact" >Get Location</a>
+
+          <hr>
+          <hr>
+
+        </div>
+      </div>
+    </div>
+    {% endblock %}
