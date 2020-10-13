@@ -1,5 +1,5 @@
 ---
 applications:
- - name: AdminBus
+ - name: admin
    random-route: true
    memory: 128M
